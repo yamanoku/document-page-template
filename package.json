@@ -1,0 +1,29 @@
+{
+  "name": "document-page-template",
+  "description": "This article is about web accessibility support in Vue.js development.",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "deploy": "gh-pages -d docs -b gh-pages -m 'chore: deploy' -t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamanoku/document-page-template.git"
+  },
+  "author": "yamanoku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamanoku/document-page-template/issues"
+  },
+  "homepage": "https://github.com/yamanoku/document-page-template#readme",
+  "dependencies": {
+    "@11ty/eleventy": "1.0.1",
+    "budoux": "0.2.0",
+    "markdown-it": "13.0.0",
+    "markdown-it-footnote": "3.0.3",
+    "markdown-it-link-attributes": "4.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "3.2.3"
+  }
+}
