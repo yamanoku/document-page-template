@@ -34,4 +34,4 @@ npm run deploy
 
 ## License
 
-[CC BY-NC-SA 4.0](./LICENSE)
+[MIT](./LICENSE)
