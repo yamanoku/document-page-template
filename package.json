@@ -21,7 +21,7 @@
     "budoux": "0.2.0",
     "markdown-it": "13.0.1",
     "markdown-it-footnote": "3.0.3",
-    "markdown-it-link-attributes": "4.0.0"
+    "markdown-it-link-attributes": "4.0.1"
   },
   "devDependencies": {
     "gh-pages": "3.2.3"
