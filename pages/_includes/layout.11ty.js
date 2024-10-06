@@ -26,7 +26,7 @@ export function render(data) {
         </main>
         <footer>
           <p>Copyright ${this.year()}, Okuto Oyama</p>
-          <p>Source : <a href="https://github.com/yamanoku/document-page-template/" target="_blank" rel="noopener">yamanoku/document-page-template</a></p>
+          <p>Source : <a href="https://github.com/yamanoku/document-page-template/" target="_blank">yamanoku/document-page-template</a></p>
         </footer>
       </body>
     </html>
