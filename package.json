@@ -1,6 +1,6 @@
 {
   "name": "document-page-template",
-  "description": "This article is about web accessibility support in Vue.js development.",
+  "description": "yamanoku's document page template by 11ty",
   "type": "module",
   "scripts": {
     "build": "eleventy",
