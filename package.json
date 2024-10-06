@@ -1,6 +1,7 @@
 {
   "name": "document-page-template",
   "description": "This article is about web accessibility support in Vue.js development.",
+  "type": "module",
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",

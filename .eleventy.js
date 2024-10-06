@@ -1,10 +1,11 @@
-const markdownIt = require("markdown-it");
-const mila = require("markdown-it-link-attributes");
-const markdownItFootnote = require('markdown-it-footnote');
-const { loadDefaultJapaneseParser } = require("budoux");
+import markdownit from "markdown-it";
+import mila from "markdown-it-link-attributes";
+import markdownItFootnote from "markdown-it-footnote";
+import { loadDefaultJapaneseParser } from "budoux";
 const parser = loadDefaultJapaneseParser();
 
-module.exports = (eleventyConfig) => {
+export default function (eleventyConfig) {
+  eleventyConfig.setLayoutsDirectory("_includes");
   const mdOptions = {
     html: true
   };
@@ -14,7 +15,7 @@ module.exports = (eleventyConfig) => {
       rel: "noopener"
     }
   };
-  const markdownLib = markdownIt(mdOptions).use(mila, milaOptions).use(markdownItFootnote);
+  const markdownLib = markdownit(mdOptions).use(mila, milaOptions).use(markdownItFootnote);
   eleventyConfig.addJavaScriptFunction("budoux", t => {
     return parser.translateHTMLString(t);
   });

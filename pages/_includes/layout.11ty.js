@@ -1,4 +1,4 @@
-exports.render = (data) => {
+export function render(data) {
   return `
     <!doctype html>
     <html lang="${data.lang}">
