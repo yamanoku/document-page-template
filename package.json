@@ -1,6 +1,6 @@
 {
   "name": "document-page-template",
-  "description": "This article is about web accessibility support in Vue.js development.",
+  "description": "yamanoku's document page template by 11ty",
   "type": "module",
   "scripts": {
     "build": "eleventy",
@@ -21,8 +21,7 @@
     "@11ty/eleventy": "3.0.0",
     "budoux": "0.6.2",
     "markdown-it": "14.1.0",
-    "markdown-it-footnote": "4.0.0",
-    "markdown-it-link-attributes": "4.0.1"
+    "markdown-it-footnote": "4.0.0"
   },
   "devDependencies": {
     "gh-pages": "6.1.1"
