@@ -1,29 +1,20 @@
 {
   "name": "document-page-template",
-  "description": "yamanoku's document page template by 11ty",
+  "description": "yamanoku's document page template",
   "type": "module",
   "scripts": {
-    "build": "eleventy",
-    "serve": "eleventy --serve",
+    "build": "pnpm run -r build",
+    "11ty": "pnpm -C 11ty",
+    "slidev": "pnpm -C slidev",
     "deploy": "gh-pages -d docs -b gh-pages -m 'chore: deploy' -t"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yamanoku/document-page-template.git"
-  },
-  "author": "yamanoku",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/yamanoku/document-page-template/issues"
   },
   "homepage": "https://github.com/yamanoku/document-page-template#readme",
-  "dependencies": {
-    "@11ty/eleventy": "3.1.2",
-    "budoux": "0.7.0",
-    "markdown-it": "14.1.0",
-    "markdown-it-footnote": "4.0.0"
-  },
+  "author": "yamanoku",
   "devDependencies": {
-    "gh-pages": "6.3.0"
-  }
+    "gh-pages": "catalog:root"
+  },
+  "packageManager": "pnpm@10.20.0"
 }
