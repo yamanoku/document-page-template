@@ -10,8 +10,8 @@ catalogs:
       specifier: 3.1.5
       version: 3.1.5
     budoux:
-      specifier: 0.8.0
-      version: 0.8.0
+      specifier: 0.8.1
+      version: 0.8.1
     markdown-it:
       specifier: 14.1.1
       version: 14.1.1
@@ -48,7 +48,7 @@ importers:
         version: 3.1.5
       budoux:
         specifier: catalog:11ty
-        version: 0.8.0
+        version: 0.8.1
       markdown-it:
         specifier: catalog:11ty
         version: 14.1.1
@@ -1231,8 +1231,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  budoux@0.8.0:
-    resolution: {integrity: sha512-ankGVGCtUl3LHv4Bdd+f39qYt168hM15Y26r1x1zeDiNiNadmdyo8FmyzGEFxFB+ttwtGLG7XBMFC0STkFDrVQ==}
+  budoux@0.8.1:
+    resolution: {integrity: sha512-UM2Gsqlcr3DRV7cbuYEN3UBDvmqSPaN/wTz4rI93v0UiCqAZDd5vjjFHUpz3+SAEHYcR2QkovMyCZ++q8UWAcQ==}
     hasBin: true
 
   buffer-equal-constant-time@1.0.1:
@@ -4878,7 +4878,7 @@ snapshots:
       node-releases: 2.0.27
       update-browserslist-db: 1.1.4(browserslist@4.27.0)
 
-  budoux@0.8.0:
+  budoux@0.8.1:
     dependencies:
       commander: 14.0.3
       google-artifactregistry-auth: 3.5.0
