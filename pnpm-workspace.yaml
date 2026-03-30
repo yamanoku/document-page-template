@@ -5,7 +5,7 @@ packages:
 catalogs:
   11ty:
     "@11ty/eleventy": 3.1.5
-    budoux: 0.8.0
+    budoux: 0.8.1
     markdown-it: 14.1.1
     markdown-it-footnote: 4.0.0
   slidev:
