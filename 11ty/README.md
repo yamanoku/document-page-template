@@ -1,4 +1,4 @@
-# document-page-template
+# public-presentations-template-11ty
 
 Template for making a document page from a @yamanoku presentation.
 

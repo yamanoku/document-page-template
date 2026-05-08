@@ -1,6 +1,6 @@
 {
-  "name": "document-page-template",
-  "description": "yamanoku's document page template",
+  "name": "public-presentations-template",
+  "description": "yamanoku's presentations template",
   "type": "module",
   "scripts": {
     "build": "pnpm run -r build",
@@ -9,9 +9,9 @@
     "deploy": "gh-pages -d docs -b gh-pages -m 'chore: deploy' -t"
   },
   "bugs": {
-    "url": "https://github.com/yamanoku/document-page-template/issues"
+    "url": "https://github.com/yamanoku/public-presentations-template/issues"
   },
-  "homepage": "https://github.com/yamanoku/document-page-template#readme",
+  "homepage": "https://github.com/yamanoku/public-presentations-template#readme",
   "author": "yamanoku",
   "devDependencies": {
     "gh-pages": "catalog:root"
